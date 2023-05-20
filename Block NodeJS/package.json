@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-lesson",
+  "version": "0.0.1",
+  "description": "this is nodejs basics course",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js",
+    "prod": "node main.js"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "js",
+    "javascript"
+  ],
+  "author": "Sergey Pokusaev",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
